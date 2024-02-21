@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo da Forca</h1>
+        <label for="categoria">categoria:</label>
+        <select id="categoria">
+            <option value="fruta">Fruta</option>
+            <option value="animal">Animal</option>
+        </select>
+
+        <button onclick="iniciarJogo()">Iniciar Jogo</button>
+        <p id="pergunta"></p>
+        <input type="text" id="resposta" placeholder="Digite sua resposta">
+        <button onclick="verificarResposta()">Verificar Resposta</button>
+        <p id="resultado"></p>
+        
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>
